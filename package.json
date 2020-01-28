@@ -13,9 +13,9 @@
   "author": "Goldaboss",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Goldaboss/emptyProject/issues"
+    "url": "https://github.com/Goldaboss/RusSite/issues"
   },
-  "homepage": "https://github.com/Goldaboss/emptyProject#readme",
+  "homepage": "https://github.com/Goldaboss/RusSite#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",

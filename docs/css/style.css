@@ -178,3 +178,32 @@ table {
 td,
 th {
   padding: 0; }
+
+html {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 12px; }
+
+.first-screen {
+  background: #c4cdd6;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.btn_start {
+  font-size: 1.33rem;
+  color: #fff;
+  background: #ff891e;
+  text-transform: uppercase;
+  padding: 15px 22px;
+  list-style: none;
+  border: none;
+  border-radius: 3px;
+  margin: auto auto;
+  outline: none; }
