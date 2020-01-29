@@ -3,25 +3,47 @@
 html {
   font-family: sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
 }
 
-.first-screen {
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-indicators .active {
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+
+. navbar-001 {
   background: #c4cdd6;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
+
+  &__list {
+
+    &-item {
+      border-radius: 3px;
+
+      &-preview {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
 }
 
-.btn_start {
-  font-size: 1.33rem;
-  color: #fff;
-  background: #ff891e;
-  text-transform: uppercase;
-  padding: 15px 22px;
-  list-style: none;
-  border: none;
-  border-radius: 3px;
-  margin: auto auto;
-  outline: none;
-}
+
+
+
+//.btn_start {
+//  font-size: 1.33rem;
+//  color: #fff;
+//  background: #ff891e;
+//  text-transform: uppercase;
+//  padding: 15px 22px;
+//  list-style: none;
+//  border: none;
+//  border-radius: 3px;
+//  margin: auto auto;
+//  outline: none;
+//}
