@@ -188,13 +188,50 @@ img {
   max-width: 100%;
   max-height: 100%; }
 
-.carousel-indicators .active {
-  background: rgba(0, 0, 0, 0.5) !important; }
+.navbar-001 .aaa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: red;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 09999999999999; }
 
-. navbar-001 {
-  background: #c4cdd6; }
-  .main__list-item {
-    border-radius: 3px; }
-    .main__list-item-preview {
-      color: #ffffff;
-      background-color: rgba(0, 0, 0, 0.3); }
+.navbar-001 .carousel-indicators {
+  margin-right: 0;
+  margin-left: 0; }
+
+.navbar-001 .slider__nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none; }
+
+.navbar-001 .slider__item {
+  width: auto;
+  text-indent: initial; }

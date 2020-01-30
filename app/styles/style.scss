@@ -11,23 +11,45 @@ img {
   max-height: 100%;
 }
 
-.carousel-indicators .active {
-  background: rgba(0, 0, 0, 0.5)!important;
-}
+.navbar-001 {
 
+  .aaa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 09999999999999;
+  }
 
-. navbar-001 {
-  background: #c4cdd6;
+  .carousel-indicators {
+    margin-right: 0;
+    margin-left: 0;
+  }
 
-  &__list {
+  .slider {
 
-    &-item {
-      border-radius: 3px;
+    &__nav {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 15;
+      display: flex;
+      justify-content: center;
+      padding-left: 0;
+      margin-right: 15%;
+      margin-left: 15%;
+      list-style: none;
+    }
 
-      &-preview {
-        color: #ffffff;
-        background-color: rgba(0, 0, 0, 0.3);
-      }
+    &__item {
+      width: auto;
+      text-indent: initial;
     }
   }
 }
