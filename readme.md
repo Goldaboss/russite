@@ -1,1 +1,1 @@
-RusSite
+https://goldaboss.github.io/russite/
