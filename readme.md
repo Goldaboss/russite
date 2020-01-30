@@ -1,1 +1,1 @@
-goldaboss.github.io/russite/
+https:'//goldaboss.github.io/russite/
