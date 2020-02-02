@@ -253,6 +253,12 @@ img {
   .navbar-001 .media {
     width: 15px;
     height: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 50% !important;
-    background: white; } }
+    background: white; }
+  .navbar-001 .media img {
+    display: none; }
+  .navbar-001 .media-body {
+    display: none; }
+  .navbar-001 .card-body {
+    text-align: center; } }

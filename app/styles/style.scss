@@ -121,9 +121,21 @@ img {
     .media {
       width: 15px;
       height: 15px;
-      border: 1px solid black;
+      border: 2px solid black;
       border-radius: 50%!important;
       background: white;
+    }
+
+    .media img {
+      display: none;
+    }
+
+    .media-body {
+      display: none;
+    }
+
+    .card-body {
+      text-align: center;
     }
   }
 }
