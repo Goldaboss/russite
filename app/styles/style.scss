@@ -14,17 +14,12 @@ img {
 .navbar-001 {
 
   .start-page {
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: #c4cdd6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 09999999999999;
-    display: none;
+    z-index: 9999999999999;
+    display: none!important;
   }
 
   .carousel-indicators {
