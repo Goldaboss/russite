@@ -1,9 +1,8 @@
 @import "../normalize";
 
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
-
 }
 
 img {
@@ -22,15 +21,14 @@ img {
     display: none!important;
   }
 
-  .carousel-indicators {
-    margin-right: 20%;
-    margin-left: 20%;
+  .card .card-body h1 {
+    font-weight: normal;
+    font-size: 42px;
   }
 
-    &__item {
-      width: auto;
-      text-indent: initial;
-    }
+  .card .card-body p {
+    font-size: 26px;
+  }
 }
 
 

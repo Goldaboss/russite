@@ -180,7 +180,7 @@ th {
   padding: 0; }
 
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
 img {
@@ -195,10 +195,9 @@ img {
   z-index: 9999999999999;
   display: none !important; }
 
-.navbar-001 .carousel-indicators {
-  margin-right: 20%;
-  margin-left: 20%; }
+.navbar-001 .card .card-body h1 {
+  font-weight: normal;
+  font-size: 42px; }
 
-.navbar-001__item {
-  width: auto;
-  text-indent: initial; }
+.navbar-001 .card .card-body p {
+  font-size: 26px; }
