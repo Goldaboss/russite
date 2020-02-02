@@ -1,6 +1,6 @@
 @import "../normalize";
 
-html {
+body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -20,6 +20,18 @@ img {
     z-index: 9999999999999;
   }
 
+  .media {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .media-body:first-child {
+    font-size: 11px;
+  }
+
+  .media-body:last-child {
+    font-size: 12px;
+  }
+
   .card .card-body h1 {
     font-weight: normal;
     font-size: 42px;
@@ -28,7 +40,90 @@ img {
   .card .card-body p {
     font-size: 26px;
   }
+
+  .card .card-body-text2  {
+   display: none;
+  }
+
+  .slider-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .carousel-indicators .active {
+    background: rgba(0, 0, 0, 0.7);
+  }
 }
 
 
 
+@media (max-width: 1199.98px) {
+
+  .navbar-001 {
+
+    .media-body:first-child {
+      font-size: 9px;
+    }
+
+    .media-body:last-child {
+      font-size: 10px;
+    }
+
+    .card .card-body h1 {
+      font-weight: normal;
+      font-size: 35px;
+    }
+
+    .card .card-body p {
+      font-size: 22px;
+    }
+  }
+}
+
+
+@media (max-width: 575.98px) {
+
+  .navbar-001 {
+
+    .card .card-body h1 {
+      font-size: 25px;
+    }
+
+    .card .card-body p {
+      font-size: 18px;
+    }
+
+    .card .card-text .card-body-text2 {
+      display: block;
+    }
+
+    .card .card-text .card-body-text1 {
+      display: none;
+    }
+
+    .btn-outline-dark {
+      display: none;
+    }
+
+    .carousel-item .slider-bg-1 {
+      background-image: url('../img/slider_1min.jpg')!important;
+    }
+    .slider-bg-2 {
+      background-image: url('../img/slider_2min.jpg')!important;
+    }
+    .slider-bg-3 {
+      background-image: url('../img/slider_3min.jpg')!important;
+    }
+    .slider-bg-4 {
+      background-image: url('../img/slider_4min.jpg')!important;
+    }
+
+    .media {
+      width: 15px;
+      height: 15px;
+      border: 1px solid black;
+      border-radius: 50%!important;
+      background: white;
+    }
+  }
+}
