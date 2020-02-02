@@ -5,7 +5,7 @@ $(document).ready(function () {
         let self = this;
         setTimeout(function () {
             $(self).parent().remove();
-        }, 50)
+        }, 5000)
 
     })
 });
