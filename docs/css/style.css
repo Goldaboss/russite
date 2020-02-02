@@ -192,8 +192,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999999999999;
-  display: none !important; }
+  z-index: 9999999999999; }
 
 .navbar-001 .card .card-body h1 {
   font-weight: normal;
