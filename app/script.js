@@ -6,6 +6,5 @@ $(document).ready(function () {
         setTimeout(function () {
             $(self).parent().remove();
         }, 5000)
-
     })
 });

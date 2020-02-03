@@ -195,7 +195,8 @@ img {
   z-index: 9999999999999; }
 
 .navbar-001 .media {
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer; }
 
 .navbar-001 .media-body:first-child {
   font-size: 11px; }
@@ -214,13 +215,18 @@ img {
   display: none; }
 
 .navbar-001 .slider-bg {
-  background-position: center;
+  background-position: 35% 0;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 .navbar-001 .carousel-indicators .active {
   background: rgba(0, 0, 0, 0.7); }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1200px) {
+  .navbar-001 .media-body:first-child {
+    font-size: 11px; }
+  .navbar-001 .media-body:last-child {
+    font-size: 12px; }
   .navbar-001 .media-body:first-child {
     font-size: 9px; }
   .navbar-001 .media-body:last-child {
@@ -231,24 +237,29 @@ img {
   .navbar-001 .card .card-body p {
     font-size: 22px; } }
 
-@media (max-width: 575.98px) {
+@media (max-width: 992px) {
   .navbar-001 .card .card-body h1 {
     font-size: 25px; }
   .navbar-001 .card .card-body p {
-    font-size: 18px; }
-  .navbar-001 .card .card-text .card-body-text2 {
+    font-size: 18px; } }
+
+@media (max-width: 769px) {
+  .navbar-001 .card .card-body-text2 {
     display: block; }
-  .navbar-001 .card .card-text .card-body-text1 {
+  .navbar-001 .card .card-body-text1 {
     display: none; }
   .navbar-001 .btn-outline-dark {
     display: none; }
+  .navbar-001 .carousel-item .slider-bg {
+    background-position: center;
+    height: 100vh !important; }
   .navbar-001 .carousel-item .slider-bg-1 {
     background-image: url("../img/slider_1min.jpg") !important; }
-  .navbar-001 .slider-bg-2 {
+  .navbar-001 .carousel-item .slider-bg-2 {
     background-image: url("../img/slider_2min.jpg") !important; }
-  .navbar-001 .slider-bg-3 {
+  .navbar-001 .carousel-item .slider-bg-3 {
     background-image: url("../img/slider_3min.jpg") !important; }
-  .navbar-001 .slider-bg-4 {
+  .navbar-001 .carousel-item .slider-bg-4 {
     background-image: url("../img/slider_4min.jpg") !important; }
   .navbar-001 .media {
     width: 15px;
