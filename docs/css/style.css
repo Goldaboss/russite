@@ -219,8 +219,33 @@ img {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.navbar-001 .carousel-item .slider-bg-1 {
+  background-image: url("../img/slider_1.jpg"); }
+
+.navbar-001 .carousel-item .slider-bg-2 {
+  background-image: url("../img/slider_2.jpg"); }
+
+.navbar-001 .carousel-item .slider-bg-3 {
+  background-image: url("../img/slider_3.jpg"); }
+
+.navbar-001 .carousel-item .slider-bg-4 {
+  background-image: url("../img/slider_4.jpg"); }
+
 .navbar-001 .carousel-indicators .active {
   background: rgba(0, 0, 0, 0.7); }
+
+.navbar-001 .carousel-control-prev,
+.navbar-001 .carousel-control-next {
+  width: inherit; }
+
+.navbar-001 .carousel-control-prev-icon,
+.navbar-001 .carousel-control-next-icon {
+  width: 77px;
+  height: 83px;
+  background-position: 60% 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background-size: 25%; }
 
 @media (max-width: 1200px) {
   .navbar-001 .media-body:first-child {
@@ -254,13 +279,13 @@ img {
     background-position: center;
     height: 100vh !important; }
   .navbar-001 .carousel-item .slider-bg-1 {
-    background-image: url("../img/slider_1min.jpg") !important; }
+    background-image: url("../img/slider_1min.jpg"); }
   .navbar-001 .carousel-item .slider-bg-2 {
-    background-image: url("../img/slider_2min.jpg") !important; }
+    background-image: url("../img/slider_2min.jpg"); }
   .navbar-001 .carousel-item .slider-bg-3 {
-    background-image: url("../img/slider_3min.jpg") !important; }
+    background-image: url("../img/slider_3min.jpg"); }
   .navbar-001 .carousel-item .slider-bg-4 {
-    background-image: url("../img/slider_4min.jpg") !important; }
+    background-image: url("../img/slider_4min.jpg"); }
   .navbar-001 .media {
     width: 15px;
     height: 15px;
@@ -272,4 +297,8 @@ img {
   .navbar-001 .media-body {
     display: none; }
   .navbar-001 .card-body {
-    text-align: center; } }
+    text-align: center; }
+  .navbar-001 .carousel-control-prev {
+    display: none; }
+  .navbar-001 .carousel-control-next {
+    display: none; } }

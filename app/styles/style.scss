@@ -52,8 +52,38 @@ img {
     background-repeat: no-repeat;
   }
 
+  .carousel-item .slider-bg-1 {
+    background-image: url('../img/slider_1.jpg');
+  }
+
+  .carousel-item .slider-bg-2 {
+    background-image: url('../img/slider_2.jpg');
+  }
+
+  .carousel-item .slider-bg-3 {
+    background-image: url('../img/slider_3.jpg');
+  }
+
+  .carousel-item .slider-bg-4 {
+    background-image: url('../img/slider_4.jpg');
+  }
+
   .carousel-indicators .active {
     background: rgba(0, 0, 0, 0.7);
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: inherit;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 77px;
+    height: 83px;
+    background-position: 60% 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-size: 25%;
   }
 }
 
@@ -126,19 +156,19 @@ img {
     }
 
     .carousel-item .slider-bg-1 {
-      background-image: url('../img/slider_1min.jpg') !important;
+      background-image: url('../img/slider_1min.jpg');
     }
 
     .carousel-item .slider-bg-2 {
-      background-image: url('../img/slider_2min.jpg') !important;
+      background-image: url('../img/slider_2min.jpg');
     }
 
     .carousel-item .slider-bg-3 {
-      background-image: url('../img/slider_3min.jpg') !important;
+      background-image: url('../img/slider_3min.jpg');
     }
 
     .carousel-item .slider-bg-4 {
-      background-image: url('../img/slider_4min.jpg') !important;
+      background-image: url('../img/slider_4min.jpg');
     }
 
     .media {
@@ -159,6 +189,14 @@ img {
 
     .card-body {
       text-align: center;
+    }
+
+    .carousel-control-prev {
+      display: none;
+    }
+
+    .carousel-control-next {
+      display: none;
     }
   }
 }
