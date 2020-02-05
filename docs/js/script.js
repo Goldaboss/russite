@@ -5,6 +5,6 @@ $(document).ready(function () {
     var self = this;
     setTimeout(function () {
       $(self).parent().remove();
-    }, 5);
+    }, 5000);
   });
 });
