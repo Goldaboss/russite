@@ -291,7 +291,8 @@ img {
     height: 15px;
     border: 2px solid black;
     border-radius: 50% !important;
-    background: transparent; }
+    background: transparent;
+    flex-grow: 0 !important; }
   .navbar-001 .media img {
     display: none; }
   .navbar-001 .media-body {
