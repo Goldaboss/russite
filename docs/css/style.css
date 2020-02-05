@@ -219,9 +219,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.navbar-001 .carousel-item {
-  height: 100vh !important; }
-
 .navbar-001 .carousel-item .slider-bg-1 {
   background-image: url("../img/slider_1.jpg"); }
 
@@ -294,7 +291,8 @@ img {
     border: 2px solid black;
     border-radius: 50% !important;
     background: transparent;
-    flex-grow: 0 !important; }
+    flex-grow: 0 !important;
+    height: 100vh !important;}
   .navbar-001 .media img {
     display: none; }
   .navbar-001 .media-body {
