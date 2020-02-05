@@ -276,7 +276,8 @@ img {
   .navbar-001 .btn-outline-dark {
     display: none; }
   .navbar-001 .carousel-item .slider-bg {
-    background-position: center; }
+    background-position: center;
+    height: 100vh !important; }
   .navbar-001 .carousel-item .slider-bg-1 {
     background-image: url("../img/slider_1min.jpg"); }
   .navbar-001 .carousel-item .slider-bg-2 {
@@ -291,8 +292,7 @@ img {
     border: 2px solid black;
     border-radius: 50% !important;
     background: transparent;
-    flex-grow: 0 !important;
-    height: 100vh !important;}
+    flex-grow: 0 !important; }
   .navbar-001 .media img {
     display: none; }
   .navbar-001 .media-body {
