@@ -219,6 +219,9 @@ img {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.navbar-001 .carousel-item {
+  height: 100vh !important; }
+
 .navbar-001 .carousel-item .slider-bg-1 {
   background-image: url("../img/slider_1.jpg"); }
 
