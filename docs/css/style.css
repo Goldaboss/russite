@@ -276,8 +276,7 @@ img {
   .navbar-001 .btn-outline-dark {
     display: none; }
   .navbar-001 .carousel-item .slider-bg {
-    background-position: center;
-    height: 100vh !important; }
+    background-position: center; }
   .navbar-001 .carousel-item .slider-bg-1 {
     background-image: url("../img/slider_1min.jpg"); }
   .navbar-001 .carousel-item .slider-bg-2 {
